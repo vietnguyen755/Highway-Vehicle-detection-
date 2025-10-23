@@ -1,0 +1,17 @@
+Vietnamese Traffic Vehicle Detection Results
+==================================================
+
+Vehicle Count Summary:
+-------------------------
+Auto: 1612
+Bus: 37
+Car: 3103
+Lcv: 147
+Motorcycle: 0
+Multiaxle: 13
+Tractor: 0
+Truck: 234
+-------------------------
+Total Vehicles: 5146
+
+Detection completed successfully!

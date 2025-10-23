@@ -1,0 +1,78 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Large model files (keep only essential ones)
+*.pt
+!runs/detect/*/weights/best.pt
+!runs/detect/*/weights/last.pt
+
+# Large video files (excluded - team will get from YouTube)
+*.mp4
+*.avi
+
+# Large dataset images (excluded - team will download manually)
+dataset/train/images/
+new_finetunedata/train/images/
+
+# Large model files (excluded - team will download separately)
+runs/detect/*/weights/*.pt
+runs/detect/*/train_batch*.jpg
+runs/detect/*/val_batch*.jpg
+runs/detect/*/confusion_matrix*.png
+runs/detect/*/Box*.png
+runs/detect/*/results.png
+runs/detect/*/labels.jpg
+
+# Cache files
+*.cache
+labels.cache
+labels.npy
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
